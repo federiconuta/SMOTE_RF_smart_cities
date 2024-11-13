@@ -51,15 +51,15 @@ cd yourrepository
 
 Edit the paths in the script to match your file structure:
 
-```
-DATA_PATH: Set to the directory where your data files are located.
-OUTPUT_PATH: Set to the directory where you want the results saved.
-```
+-`DATA_PATH:` Set to the directory where your data files are located.
+-`OUTPUT_PATH:` Set to the directory where you want the results saved.
 
 # In the script, replace these paths with your directories
 DATA_PATH = "path/to/data_directory"
 OUTPUT_PATH = "path/to/output_directory"
-Step 3: Run the Script
+```
+
+##### Step 3: Run the Script
 
 To run the script, use the following command:
 

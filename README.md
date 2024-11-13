@@ -112,6 +112,21 @@ The script produces two key output files:
 - results.csv: A detailed record of model metrics and optimal parameters for each city-year combination.
 - avg_results.csv: Aggregated average hyperparameters and metrics across cities.
 
+### Evaluate Random Forest Model with Averaged Hyperparameters
+
+To evaluate a `RandomForestClassifier` using averaged hyperparameters, use the provided `evaluate_rf_with_avg_params.py` script. This script loads `avg_results.csv` to retrieve the best parameters for each city and predicts target values for 2014 based on training data from 2009.
+
+#### Usage
+
+1. Ensure `avg_results.csv` and relevant data files are in your specified `data_path`.
+2. Run the script with:
+   
+   ```
+    from evaluate_rf_with_avg_params import evaluate_rf_with_avg_params
+   
+    evaluate_rf_with_avg_params(data_path='path/to/data_directory', output_path='path/to/output_directory')
+
+```
 
 
 

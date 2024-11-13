@@ -125,7 +125,6 @@ To evaluate a `RandomForestClassifier` using averaged hyperparameters, use the p
     from evaluate_rf_with_avg_params import evaluate_rf_with_avg_params
    
     evaluate_rf_with_avg_params(data_path='path/to/data_directory', output_path='path/to/output_directory')
-
 ```
 
 

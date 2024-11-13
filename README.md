@@ -99,7 +99,7 @@ pip install -r requirements.txt
 To run the script:
 
 Customize the list of cities and year range as desired.
-Ensure data files are named consistently with the format <city>_cd_<year>_tech.csv.
+Ensure data files are named consistently with the format <city>_cd_<year>_tech.csv, if we wat to analyse rome, for example the corresposing files should be saved as rome_cd_2000_tech.csv, rome_cd_2001_tech.csv,...,rome_2014.csv.
 Call the main() function with the desired list of cities and years:
 ```
 # Uncomment the following line in the script to run with actual data

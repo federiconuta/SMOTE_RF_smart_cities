@@ -81,9 +81,11 @@ Ensure these are installed by using the requirements.txt file provided.
 #### 5. Installation
 To set up the environment, use the following commands:
 
-# Create a virtual environment (recommended)
+```
+# Create a virtual environment (recommended but optional)
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\\Scripts\\activate`
+```
 
 # Install dependencies
 

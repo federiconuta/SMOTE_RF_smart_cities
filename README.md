@@ -54,6 +54,7 @@ Edit the paths in the script to match your file structure:
 -`DATA_PATH:` Set to the directory where your data files are located.
 -`OUTPUT_PATH:` Set to the directory where you want the results saved.
 
+```
 # In the script, replace these paths with your directories
 DATA_PATH = "path/to/data_directory"
 OUTPUT_PATH = "path/to/output_directory"
@@ -62,8 +63,9 @@ OUTPUT_PATH = "path/to/output_directory"
 ##### Step 3: Run the Script
 
 To run the script, use the following command:
-
+```
 python your_script_name.py
+```
 The script will process each city and year in parallel and save the results to CSV files in the OUTPUT_PATH directory.
 
 #### 4. Requirements

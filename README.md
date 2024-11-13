@@ -64,9 +64,9 @@ OUTPUT_PATH = "path/to/output_directory"
 
 To run the script, use the following command:
 ```
-python your_script_name.py
+python rf_smote_classifier.py
 ```
-The script will process each city and year in parallel and save the results to CSV files in the OUTPUT_PATH directory.
+The script will process each city and year in parallel and save the results to CSV files in the `OUTPUT_PATH` directory.
 
 #### 4. Requirements
 The script requires the following Python packages:

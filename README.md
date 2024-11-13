@@ -36,7 +36,7 @@ The project includes the following main functionalities:
 
 ### 3. Usage
 
-This guide provides step-by-step instructions for inexperienced users.
+This guide provides step-by-step instructions for inexperienced users. The user ca revolve to the folder data_csv for an example with two cities util 2010.
 
 #### Step 1: Clone the Repository
 

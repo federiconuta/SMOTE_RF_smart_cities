@@ -110,7 +110,7 @@ main(cities=['City1', 'City2'], years=range(2000, 2009), param_grid=param_grid)
 The script produces two key output files:
 
 - results.csv: A detailed record of model metrics and optimal parameters for each city-year combination.
-- avg_results.csv: Aggregated average hyperparameters and metrics across cities, providing a higher-level view of performance.
+- avg_results.csv: Aggregated average hyperparameters and metrics across cities.
 
 
 

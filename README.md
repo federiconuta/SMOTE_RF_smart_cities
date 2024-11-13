@@ -121,10 +121,8 @@ To evaluate a `RandomForestClassifier` using averaged hyperparameters, use the p
 1. Ensure `avg_results.csv` and relevant data files are in your specified `data_path`.
 2. Run the script with:
    
-   ```
-    from evaluate_rf_with_avg_params import evaluate_rf_with_avg_params
-   
-    evaluate_rf_with_avg_params(data_path='path/to/data_directory', output_path='path/to/output_directory')```
+   `from evaluate_rf_with_avg_params import evaluate_rf_with_avg_params`
+   `evaluate_rf_with_avg_params(data_path='path/to/data_directory', output_path='path/to/output_directory')`
 
 
 
